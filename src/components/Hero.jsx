@@ -4,7 +4,7 @@ const Hero = () => {
     <header className="w-full justify-center items-center flex-col">
       <nav className="flex justify-between items-center w-full mb-10 pt-3">
         <img src={logo} alt="logo" className="w-28 object-contain" />
-        <div className="flex justify-evenly items-center gap-3 md:gap-10">
+        <div className="flex justify-evenly items-center gap-2 flex-col md:flex-row md:gap-10">
           
         <button type="button" onClick={()=> window.open("https://github.com/mohdali03")}
         className="black_btn"
@@ -23,7 +23,7 @@ const Hero = () => {
         : Simplifying Complex Content
       </h1>
       <h2 className="desc">
-      Simplify intricate content with our AI Text Summarization tool. Get concise, easy-to-grasp summaries of complex articles using cutting-edge technology. Streamline your reading experience today
+      Simplify intricate content with our AI Article Summarization tool. Get concise, easy-to-grasp summaries of complex articles using cutting-edge technology. Streamline your reading experience today
       </h2>
     </header>
   )
