@@ -4,7 +4,7 @@ const Hero = () => {
     <header className="w-full justify-center items-center flex-col">
       <nav className="flex justify-between items-center w-full mb-10 pt-3">
         <img src={logo} alt="logo" className="w-28 object-contain" />
-        <div className="flex justify-evenly items-center gap-6 md:gap-10">
+        <div className="flex justify-evenly items-center gap-3 md:gap-10">
           
         <button type="button" onClick={()=> window.open("https://github.com/mohdali03")}
         className="black_btn"
