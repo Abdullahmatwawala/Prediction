@@ -7,12 +7,14 @@
 */
 
 .main {
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   position: fixed;
   display: flex;
+  /* background: #000; */
+  /* border: #000 10px; */
   justify-content: center;
-  padding: 120px 24px 160px 24px;
+  /* padding: 120px 24px 160px 24px; */
   pointer-events: none;
 }
 
@@ -72,11 +74,14 @@
 /* Tailwind Styles */
 
 .app {
-  @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
+    @apply relative z-10 flex justify-center items-center flex-col  mx-auto ;
 }
 
 .black_btn {
   @apply rounded-full border border-black bg-black py-1.5 px-5 text-sm text-white transition-all hover:bg-white hover:text-black;
+}
+.red_btn {
+  @apply rounded-full  hover:bg-red-500 py-1.5 px-5 text-sm hover:text-white transition-all ;
 }
 .blue_btn {
   @apply rounded-full border border-blue-500 bg-blue-900 py-1.5 px-5 text-sm text-white transition-all hover:bg-white hover:text-blue-900;
@@ -100,9 +105,15 @@
 }
 
 .submit_btn {
-  @apply hover:border-gray-700 hover:text-gray-700 absolute inset-y-0 right-0 my-1.5 mr-1.5 flex w-10 items-center justify-center rounded border border-gray-200 font-sans text-sm font-medium text-gray-400;
+  @apply hover:border-gray-700 hover:text-gray-700 absolute inset-y-0 right-10 my-1.5 mr-1.5 flex w-10 items-center justify-center rounded border border-gray-200 font-sans text-sm font-medium text-gray-400;
 }
-
+/* .filter_btn {
+  @apply ;
+} */
+.axp {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
 .link_card {
   @apply p-3 flex justify-start items-center flex-row bg-white border border-gray-200 gap-3 rounded-lg cursor-pointer;
 }

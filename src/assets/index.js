@@ -1,7 +1,9 @@
-import linkIcon from './link.svg'
+import linkIcon from './searchIcon.png'
+
+import filter from './filter.svg'
 import loader from './loader.svg'
 import copy from './copy.svg'
-import logo from './logo.svg'
+import logo from './logo.png'
 import tick from './tick.svg'
 
 export {
@@ -9,5 +11,6 @@ export {
     loader,
     copy,
     logo,
-    tick
+    tick,
+    filter
 }

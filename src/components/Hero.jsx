@@ -1,29 +1,16 @@
-import { logo } from "../assets";
+
 const Hero = () => {
   return (
-    <header className="w-full justify-center items-center flex-col">
-      <nav className="flex justify-between items-center w-full mb-10 pt-3">
-        <img src={logo} alt="logo" className="w-28 object-contain" />
-        <div className="flex justify-evenly items-center gap-2 flex-col md:flex-row md:gap-10">
-          
-        <button type="button" onClick={()=> window.open("https://github.com/mohdali03")}
-        className="black_btn"
-        >Github</button>
-        <button type="button" onClick={()=> window.open("https://www.linkedin.com/in/mohd-ali-asgar-shaikh-875456243/")}
-        className="blue_btn"
-        >linkedin</button>
-        </div>
-
-      </nav>
+    <header className="w-full  justify-center items-center flex-col ">
       <h1 className="head_text">
-       
+
         <span className="orange_gradient">
-        AI Artice Summarization
-        </span> <br className="max-md:hidden"/>
-        : Simplifying Complex Content
-      </h1>
+          CRIME PREDICTION
+        </span> <br className="max-md:hidden" />
+        : Anticipating Tomorrow's Trouble <br /> Crime Predictions Unveiled      </h1>
       <h2 className="desc">
-      Simplify intricate content with our AI Article Summarization tool. Get concise, easy-to-grasp summaries of complex articles using cutting-edge technology. Streamline your reading experience today
+
+        Explore the future with our advanced crime prediction platform, unveiling unique insights to stay ahead of the curve in crime prevention and safety.
       </h2>
     </header>
   )
